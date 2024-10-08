@@ -1,0 +1,29 @@
+20:00:41:041 [main] ERROR com.lw1.CreateFile.CreateArrayFromFile - Неверный ввод. Не удалось создать массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Входные данные действительны. Создание массива MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Входные данные действительны. Создание массива MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Входные данные действительны. Создание массива MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Входные данные действительны. Создание массива MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] ERROR com.lw1.CreateFile.CreateArrayFromFile - Неверный ввод. Не удалось создать массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Входные данные действительны. Создание массива MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Попытка создать новый массив MyArray
+20:00:41:041 [main] ERROR com.lw1.CreateFile.CreateArrayFromFile - Неверный ввод. Не удалось создать массив MyArray
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
+20:00:41:041 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - ArrayFromFileCreator закрыт
+20:00:41:041 [main] INFO  com.lw1.Main - Программа завершила работу
+20:04:21:021 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - ArrayFromFileCreator запущен
+20:05:21:021 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - ArrayFromFileCreator запущен
+20:05:21:021 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - ArrayFromFileCreator закрыт
+20:05:21:021 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Проверка готовности файла
