@@ -8,8 +8,6 @@ import com.lw1.entity.MyArrayClass.MyArray;
 
 public class MyArraySortMethods {
 
-	private static final Logger logger = LogManager.getLogger(MyArraySortMethods.class);
-
 	// Пузырьковая сортировка
 	public static MyArray bubbleSort(MyArray array, boolean ascendingOrder) {
 

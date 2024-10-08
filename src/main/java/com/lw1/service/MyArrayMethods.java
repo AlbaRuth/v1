@@ -8,7 +8,6 @@ import com.lw1.entity.MyArrayClass.MyArray;
 
 public class MyArrayMethods {
 
-	private static final Logger logger = LogManager.getLogger(MyArrayMethods.class);
 
 	public static int getMinValue(MyArray array){
 		int min = 0;

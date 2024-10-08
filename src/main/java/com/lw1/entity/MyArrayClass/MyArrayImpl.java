@@ -35,9 +35,7 @@ public class MyArrayImpl extends MyArray{
 	public void addFromString(String values) throws BadInputLineException {
 		String[] stringArray = values.split(", ");
 		int[] newArray = new int[size + stringArray.length];
-		for(int i = 0; i < size; i++){
-			newArray[i] = array[i];
-		}
+        if (size >= 0) System.arraycopy(array, 0, newArray, 0, size);
 		try {
 			for(int i = 0; i < stringArray.length; i++) {
 				newArray[size + i] = Integer.parseInt(stringArray[i].trim());
