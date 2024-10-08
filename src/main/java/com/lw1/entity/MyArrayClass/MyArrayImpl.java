@@ -57,13 +57,9 @@ public class MyArrayImpl extends MyArray{
 		int removedValue = array[index];
 		int[] newArray = new int[size - 1];
 
-		for (int i = 0; i < index; i++) {
-			newArray[i] = array[i];
-		}
+        System.arraycopy(array, 0, newArray, 0, index);
+        if (size - 1 - index >= 0) System.arraycopy(array, index + 1, newArray, index, size - 1 - index);
 
-		for (int i = index; i < size - 1; i++) {
-			newArray[i] = array[i + 1];
-		}
 		array = newArray;
 		size--;
 		return removedValue;
@@ -111,5 +107,4 @@ public class MyArrayImpl extends MyArray{
 	public String toString() {
 		return "MyArray: " + Arrays.toString(array);
 	}
-
 }

@@ -13,7 +13,7 @@ import com.lw1.exceptions.OutOfBoundException;
 
 public class ArrayImplTest {
 
-	@Test(priority = 1, enabled = true)
+	@Test
 	public void getTest(){
 		MyArray array = new MyArrayImpl(new int[]{2, 4, 8});
 		Assert.assertEquals(array.get(0), 2);

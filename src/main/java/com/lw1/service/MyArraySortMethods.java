@@ -60,7 +60,7 @@ public class MyArraySortMethods {
 	private static void quickSortRecursive(MyArray array, int low, int high, boolean ascendingOrder) {
 
 		if (low < high) {
-			int pivotIndex = 	partition(array, low, high, ascendingOrder);
+			int pivotIndex = partition(array, low, high, ascendingOrder);
 			quickSortRecursive(array, low, pivotIndex - 1, ascendingOrder);
 			quickSortRecursive(array, pivotIndex + 1, high, ascendingOrder);
 		}
