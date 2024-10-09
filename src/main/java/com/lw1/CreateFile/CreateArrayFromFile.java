@@ -26,7 +26,6 @@ public class CreateArrayFromFile implements Closeable {
 	private final Path filePath;
 	private BufferedReader fileReader;
 
-
 	public CreateArrayFromFile(String fileName) throws FileNotFoundExeption {
 		logger.info("Инициализация CreateArrayFromFile для файла: {}", fileName);
 

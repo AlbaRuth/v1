@@ -3,3 +3,9 @@
 22:32:37:037 [main] WARN  com.lw1.Main - Неверный формат строки: Неверный формат строки: 3z4 6
 22:32:37:037 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Закрытие ресурса CreateArrayFromFile.
 22:32:37:037 [main] INFO  com.lw1.Main - Программа завершила работу
+15:37:05:005 [main] INFO  com.lw1.Main - Программа начала работу
+15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Инициализация CreateArrayFromFile для файла: test3.txt
+15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Чтение строки из файла.
+15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Создан новый массив.
+15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Закрытие ресурса CreateArrayFromFile.
+15:37:05:005 [main] INFO  com.lw1.Main - Программа завершила работу

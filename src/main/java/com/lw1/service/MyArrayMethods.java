@@ -1,9 +1,9 @@
 package com.lw1.service;
 
 import com.lw1.entity.MyArrayClass.MyArray;
+import com.lw1.exceptions.DivisionByZeroException;
 
 public class MyArrayMethods {
-
 
 	public static int getMinValue(MyArray array){
 		int min = array.get(0);
@@ -21,8 +21,16 @@ public class MyArrayMethods {
 		return max;
 	}
 
-	public static double averageOfValues(MyArray array){
-		return sumOfValues(array)/array.size();
+	public static double averageOfValues(MyArray array) {
+		try {
+			if (array.size() == 0) {
+				throw new DivisionByZeroException("Невозможно вычислить среднее значение: размер массива равен нулю.");
+			}
+			return sumOfValues(array) / array.size();
+		} catch (DivisionByZeroException e) {
+			System.err.println(e.getMessage());
+			return 0;
+		}
 	}
 
 	public static int sumOfValues(MyArray array){
