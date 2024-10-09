@@ -1,16 +1,12 @@
 package com.lw1.service;
 
-import com.lw1.exceptions.ArrayHasNoElementsException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import com.lw1.entity.MyArrayClass.MyArray;
 
 public class MyArrayMethods {
 
 
 	public static int getMinValue(MyArray array){
-		int min = 0;
+		int min = array.get(0);
 		for(int i = 0, n = array.size(); i < n; i++){
 			if(array.get(i) < min) min = array.get(i);
 		}
@@ -18,7 +14,7 @@ public class MyArrayMethods {
 	}
 
 	public static int getMaxValue(MyArray array){
-		int max = 0;
+		int max = array.get(0);
 		for(int i = 0, n = array.size(); i < n; i++){
 			if(array.get(i) > max) max = array.get(i);
 		}
