@@ -9,3 +9,9 @@
 15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Создан новый массив.
 15:37:05:005 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Закрытие ресурса CreateArrayFromFile.
 15:37:05:005 [main] INFO  com.lw1.Main - Программа завершила работу
+15:49:06:006 [main] INFO  com.lw1.Main - Программа начала работу
+15:49:06:006 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Инициализация CreateArrayFromFile для файла: test3.txt
+15:49:06:006 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Чтение строки из файла.
+15:49:06:006 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Создан новый массив.
+15:49:06:006 [main] INFO  com.lw1.CreateFile.CreateArrayFromFile - Закрытие ресурса CreateArrayFromFile.
+15:49:06:006 [main] INFO  com.lw1.Main - Программа завершила работу
